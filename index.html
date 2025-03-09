@@ -5,53 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coach AR</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer@4.0.0/dist/model-viewer.js"></script>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        iframe {
-            width: 100%;
-            max-width: 600px;
-            height: 400px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .qr-code {
-            margin-top: 10px;
-        }
-    </style>
 </head>
-<body>
-
+<body style="text-align: center;">
     <h1>Coach en Réalité Augmentée</h1>
 
-    <div class="container">
-        <!-- Intégration de ton modèle 3D depuis Sketchfab -->
-        <div class="sketchfab-embed-wrapper">
-            <iframe src="https://sketchfab.com/models/dc9abca77985419baac57d9053f05562/embed" frameborder="0" allowfullscreen></iframe>
-            <p>
-                <a href="https://sketchfab.com/3d-models/pushup-dc9abca77985419baac57d9053f05562?utm_medium=embed&utm_campaign=share-popup&utm_content=dc9abca77985419baac57d9053f05562" target="_blank">
-                  
-                </a>
-            </p>
-        </div>
+    <!-- Intégration de ton modèle 3D depuis Sketchfab -->
+    <div class="sketchfab-embed-wrapper">
+        <iframe src="https://sketchfab.com/models/dc9abca77985419baac57d9053f05562/embed" width="600" height="400" frameborder="0" allowfullscreen></iframe>
 
-        <p>
-             <a href="https://sketchfab.com/models/dc9abca77985419baac57d9053f05562/embed?preload=1&camera=0">
-            
-            </a>
+        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+            <a href="https://sketchfab.com/3d-models/pushup-dc9abca77985419baac57d9053f05562?utm_medium=embed&utm_campaign=share-popup&utm_content=dc9abca77985419baac57d9053f05562" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Pushup</a> by 
+            <a href="https://sketchfab.com/terenceSTR?utm_medium=embed&utm_campaign=share-popup&utm_content=dc9abca77985419baac57d9053f05562" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">terenceSTR</a> on 
+            <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=dc9abca77985419baac57d9053f05562" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
         </p>
-
-        <p> Scannez ce QR code pour voir en AR :</p>
-        <div class="qr-code">
-            <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://sketchfab.com/models/dc9abca77985419baac57d9053f05562/embed?preload=1&camera=0" alt="Scan pour voir en AR">
-        </div>
     </div>
+
+    <p>
+        📲 <a href="https://sketchfab.com/models/dc9abca77985419baac57d9053f05562/embed?preload=1&camera=0"> ➡ Voir en AR ici !</a>
+    </p>
+
+    <p>Scannez ce QR code pour voir en AR !</p>
 
 </body>
 </html>
